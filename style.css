@@ -1,5 +1,5 @@
 body{
-  margin: 0;
+  margin: auto;
   background: #3F3D54;
   text-align: center;
   
@@ -22,7 +22,7 @@ nav{
 
 ul{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 64px;
   list-style: none;
 }
@@ -38,6 +38,8 @@ ul li a:hover{
 
 h1{
   font-size: 36px;
+  margin: 0 auto 60px ;
+  /* border: #3023bd solid 1px; */
 }
 
 ul, h1{
@@ -47,10 +49,17 @@ ul, h1{
 main{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 83px;
+  align-items:center;
+  gap: 82px;
   margin: 100px auto 157px;
+  font-weight: 700;
+  /* border:#00BFA6 solid 1px; */
 }
+
+/* section{
+  border:#00BFA6 solid 1px;
+  
+} */
 
 span{
   color: #00BFA6;
